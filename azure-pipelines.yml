@@ -23,5 +23,5 @@ steps:
 - task: PublishCodeCoverageResults@2
   inputs:
     summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/site/jacoco'
-    pathToSources: '$(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml'
+    pathToSources: '$(System.DefaultWorkingDirectory)/**/src'
     failIfCoverageEmpty: true
